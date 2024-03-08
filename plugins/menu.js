@@ -158,7 +158,7 @@ renderLargerThumbnail: true
 }
 handler.help = ['menu']
 handler.tags = ['infobot']
-handler.command = ['zbi','b','list'] 
+handler.command = ['لائحة','b','list'] 
 handler.register = false
 
 
