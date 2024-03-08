@@ -4,15 +4,16 @@ let handler = async (m, { conn }) => {
 ╭────────────────────
 │👋 مرحبا يا , ${conn.getName(m.sender)}!
 │🤖 أتمنى أنك بخير ♥ البوت أون لاين الآن 
-يمكنك إستخدامه عبر كتابة menu.
+يمكنك إستخدامه عبر كتابة نقطة لائحة
+مثال : .لائحة
 ╰────────────────────
-*─[ BY NOUREDDINE_OUAFY ]*🌟✨
+*─[ BY issam_BOT ]*🌟✨
 `.trim()
   m.reply(caption)
 }
-handler.help = ['alive']
+handler.help = ['menu']
 handler.tags = ['infobot']
-handler.command = /^(alive)$/i
+handler.command = /^(menu)$/i
 
 
 export default handler
