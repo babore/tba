@@ -156,9 +156,9 @@ renderLargerThumbnail: true
     throw e
   }
 }
-handler.help = ['الأوامر']
+handler.help = ['menu']
 handler.tags = ['infobot']
-handler.command = ['menu','b','list'] 
+handler.command = ['zbi','b','list'] 
 handler.register = false
 
 
