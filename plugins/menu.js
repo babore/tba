@@ -179,7 +179,7 @@ https://www.facebook.com/profile.php?id=100063533185520 \n
 
 `.trim())
 handler.help = ['allmenu']
-handler.tags = ['main']
+handler.tags = ['zbihh']
 handler.command = ['list', 'menu'] 
 
 export default handler
